@@ -1,6 +1,6 @@
 # Michael Crum's Resume
 
-My resume, typeset in LaTeX and build + released using github actions.
+My resume, typeset in LaTeX and built + released using github actions.
 [Click here to download as a PDF.](https://github.com/usedhondacivic/resume/releases/latest/download/michael_crum_resume.pdf)
 
 Based on: https://www.overleaf.com/latex/templates/jakes-resume-anonymous/cstpnrbkhndn
