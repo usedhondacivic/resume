@@ -3,8 +3,12 @@ name: CI
 on:
   push:
     branches: [ "main" ]
+    tags:
+      - '*'
   pull_request:
     branches: [ "main" ]
+    tags:
+      - '*'
     
   workflow_dispatch:
 
@@ -20,6 +24,5 @@ jobs:
           root_file: michael_crum_resume.tex
       - name: Release
         uses: softprops/action-gh-release@v1
-        if: startsWith(github.ref, 'refs/tags/')
         with:
           files: michael_crum_resume.pdf
