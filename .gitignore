@@ -1,0 +1,8 @@
+*.aux
+*.fls
+*.log
+*.fdb_latexmk
+*.out
+*.pdf
+*.log
+phone_number.txt
